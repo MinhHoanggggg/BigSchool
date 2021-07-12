@@ -12,7 +12,7 @@ namespace BigSchool.Models
         [Key]
         [Column(Order = 0)]
         [DatabaseGenerated(DatabaseGeneratedOption.None)]
-        public int CourseId { get; set; }
+        public int CourseId;
 
         [Key]
         [Column(Order = 1)]
